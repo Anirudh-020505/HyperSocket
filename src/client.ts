@@ -1,7 +1,7 @@
 import { Socket } from "net";
 import decodeFrame from "./utils/frame";
 import { encodeFrame } from "./utils/encode";
-import { EventEmitter } from "./utils/event";
+import { EventEmitter } from "./types";
 
 export class WebSocketConnection extends EventEmitter {
   private socket: Socket;
