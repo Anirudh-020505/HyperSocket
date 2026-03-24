@@ -3,7 +3,7 @@ import decodeFrame from "./utils/frame";
 import { encodeFrame } from "./utils/encode";
 import {Socket} from "net"; 
 
-import crypto from "crypto"; 
+import crypto from "crypto";
 
 
 
