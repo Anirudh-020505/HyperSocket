@@ -1,21 +1,28 @@
 {
   "name": "hypersocket",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Custom WebSocket implementation from scratch — RFC 6455 on Node.js raw TCP",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "websocket",
+    "rfc6455",
+    "tcp",
+    "real-time"
+  ],
+  "author": "Anirudh",
+  "license": "ISC",
   "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/node": "^24.10.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "crypto": "^1.0.1",
-    "http": "^0.0.1-security"
   }
 }
